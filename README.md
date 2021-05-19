@@ -2,8 +2,6 @@
 
 Class: MDS271
 Created: May 11, 2021 10:42 AM
-Reviewed: No
-Type: chapter
 
 # Basic Text Processing
 
@@ -100,3 +98,4 @@ Tokenization: Language issues →
 # Normalization
 
 Word normalization is the task of putting words/tokens in a standard format, choosing a single normal form for words with multiple forms like USA and US or uh-huh and uhhuh.
+
