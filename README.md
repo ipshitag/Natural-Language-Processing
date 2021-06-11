@@ -13,6 +13,7 @@ Periods are relatively ambiguous, because a period can be
 
 - sentence boundary
 - abbreviations like Dr.
+
 - Number like 76.87
 
 To segment a sentence we can build a binary classifier which will
@@ -99,3 +100,4 @@ Tokenization: Language issues →
 
 Word normalization is the task of putting words/tokens in a standard format, choosing a single normal form for words with multiple forms like USA and US or uh-huh and uhhuh.
 
+:shipit:
