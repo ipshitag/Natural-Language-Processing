@@ -3,6 +3,9 @@
 Class: MDS271
 Created: May 11, 2021 10:42 AM
 
+# What is Natural Language Processing?
+
+
 # Basic Text Processing
 
 One of the most fundamental tools for text processing is, **Regular Expression**. Regular expression is a formal language for specifying text strings. 
