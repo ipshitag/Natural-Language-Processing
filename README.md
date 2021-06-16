@@ -4,26 +4,26 @@ Class: MDS271
 Created: May 11, 2021 10:42 AM
 
 # What is Natural Language Processing?
-
+In the broadest sense, we can say that natural processing is the *synthesising* and *processing* of human languages. NLP ranges from simple pattern making using regular expressions to deep neural nets trying to translate languages.
 
 # Basic Text Processing
 
-One of the most fundamental tools for text processing is, **Regular Expression**. Regular expression is a formal language for specifying text strings. 
+One of the most fundamental tools for text processing is, **Regular Expression**. A regular expression is a formal language for specifying text strings. 
 
 To segment sentences, we can use **. ? !** etc. But, !, ? are relatively more ambiguous than a period,
 
-Periods are relatively ambiguous, because a period can be
+Periods are relatively ambiguous because a period can be
 
 - sentence boundary
 - abbreviations like Dr.
 
 - Number like 76.87
 
-To segment a sentence we can build a binary classifier which will
+To segment a sentence we can build a binary classifier that will
 
 - Look at "."
 - Decides whether it is EndOfSentence/NotEndOfSentence
-- Classifiers → hand written rules, regex or through machine learning
+- Classifiers → handwritten rules, regex or through machine learning
 
 A simple decision tree to predict EOS:
 
@@ -32,15 +32,15 @@ A simple decision tree to predict EOS:
 A more sophisticated decision tree:
 
 1. Case of with "."
-2. Case of word after "."
+2. Case of the word after "."
 3. Numeric Features
     - Length of word with "."
-    - Probability(word with "." occurs at EOS
-    - Probability(word after "." occurs at beginning of sentence) eg The
+    - Probability(a word with "." occurs at EOS
+    - Probability(word after "." occurs at beginning of a sentence) eg The
 
 **Implementing Decision Tree**
 
-A decision tree is just like if then statements, the difficult part is to choose the features.
+A decision tree is just like if-then statements, the difficult part is to choose the features.
 
 We can think of the questions in a decision tree as features that could be exploited by an classifier
 
@@ -53,7 +53,7 @@ We can think of the questions in a decision tree as features that could be explo
 
 > I do uh main-mainly business data processing
 
-words like *uh* are knows as **filled pauses**
+words like *uh* are known as **filled pauses**
 
 words like *main-mainly* are known as **fragments**
 
@@ -81,7 +81,7 @@ eg
 
 It depends on how we define our goal
 
-$N$ = Number of tokens
+$N$ = number of tokens
 
 $V$ = vocabulary = set of types
 
