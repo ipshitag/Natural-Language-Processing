@@ -6,6 +6,8 @@ Created: May 11, 2021 10:42 AM
 # What is Natural Language Processing?
 In the broadest sense, we can say that natural processing is the *synthesising* and *processing* of human languages. NLP ranges from simple pattern making using regular expressions to deep neural nets trying to translate languages.
 
+#Little History
+
 # Basic Text Processing
 
 One of the most fundamental tools for text processing is, **Regular Expression**. A regular expression is a formal language for specifying text strings. 
