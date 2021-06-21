@@ -7,6 +7,17 @@ Created: May 11, 2021 10:42 AM
 In the broadest sense, we can say that natural processing is the *synthesising* and *processing* of human languages. NLP ranges from simple pattern making using regular expressions to deep neural nets trying to translate languages.
 
 # Little History
+NLP research started in the *1950* as a central part of artificial intelligence. There have had been made many seminal works in this field, but the accuracy and success was not achieved, because of the **ambiguity** in languages.
+
+A good example prevalent at that time was --> *“The spirit is strong, but the flesh is weak” is incorrectly translated into
+“The vodka is delicious, but the meat tastes bad.”*
+
+From the late *1980* rule based methods were gradually replaced by machine learning and statistical methods which were proven to be much more successful. One of the example of statistical and ML method is as follows *if a verb is followed by a noun more frequently than a verb in data, then we put higher probability on “noun” when seeing an unknown or
+ambiguous word after a verb.*
+
+As a result there was a resurgence in NLP technologies. In NLP algorithms, the use of linguistic rules is transformed into the use of features, or linguistic patterns for which statistics are collected and used by machine learning models. 
+
+From 2000's deep learning methods have overtaken theML and statistical based models. With growing time, the influence of lingusitic is weakening over NLP.
 
 # Basic Text Processing
 
