@@ -140,7 +140,9 @@ Two ways to do stemming are
 2. Lancaster Algorithm
 3. Regex Method
 
+
 Porters Algorithm:-
+
 ![image](https://user-images.githubusercontent.com/20279993/124009773-9f720300-d9fb-11eb-8c07-1117f983b3b9.png)
 
 # How similar are two similar words?
