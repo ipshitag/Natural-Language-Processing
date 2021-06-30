@@ -159,3 +159,8 @@ Algorithm for edit distance:
 
 ![image](https://user-images.githubusercontent.com/20279993/124014499-39887a00-da01-11eb-998d-73b57bbfaa6e.png)
 
+Performance:
+
+![image](https://user-images.githubusercontent.com/20279993/124015634-8587ee80-da02-11eb-8dac-e02c34ed2418.png)
+
+
