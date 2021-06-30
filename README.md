@@ -113,7 +113,25 @@ Tokenization: Language issues →
 ![](Untitled%204.png)
 
 # Normalization
-
 Word normalization is the task of putting words/tokens in a standard format, choosing a single normal form for words with multiple forms like USA and US or uh-huh and uhhuh.
+1. We need to 'normalize' words
+2. We implicitly define equivalence classes of terms
+3. Alternative: asymmetric expansion
+4. Potentially more powerful, but less efficient
 
-:shipit:
+## Case Folding
+This means changing all the words to lower case. One problem can be in words like **US**, which is different to **us**.
+
+## Lemmatization
+Reduces inflections or variant forms to base form
+- am, are, is -> be
+- car, cars, car's, cars' -> cars
+Lemmatization -> the correct dictionary headword
+
+## Morphology
+This deals with **morphemes** which are the small meaningful units and are of two types, *stems* and *affixes*. Stems are the core meaning bearing part, and affixes are bits and pieces that are related to stems and often, are grammatical functions. For example in the word **stems**, stem is the stems, and s is the affixes.
+
+## Stemming
+Reduce terms to their stem. Stemming is a **crude** way to chop off affixes. Its language dependant. For example automatic, automation to automat.
+
+
