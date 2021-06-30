@@ -133,5 +133,27 @@ This deals with **morphemes** which are the small meaningful units and are of tw
 
 ## Stemming
 Reduce terms to their stem. Stemming is a **crude** way to chop off affixes. Its language dependant. For example automatic, automation to automat.
+![image](https://user-images.githubusercontent.com/20279993/124009431-3a1e1200-d9fb-11eb-853b-b75887eaaa46.png)
 
+Two ways to do stemming are
+1. Porters Algorithm
+2. Lancaster Algorithm
+3. Regex Method
+
+Porters Algorithm:-
+![image](https://user-images.githubusercontent.com/20279993/124009773-9f720300-d9fb-11eb-8c07-1117f983b3b9.png)
+
+# How similar are two similar words?
+
+## Edit Distance
+
+It can be found by their **Edit distance**. The minimum edit distance between two strings is the minimum number of editing operations that are needed to transform to one another. The editing operations are
+1. Insertion
+2. Deletion
+3. Substitution
+
+
+Algorithm for edit distance:
+
+![image](https://user-images.githubusercontent.com/20279993/124014499-39887a00-da01-11eb-998d-73b57bbfaa6e.png)
 
