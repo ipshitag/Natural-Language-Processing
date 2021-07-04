@@ -1,7 +1,6 @@
 # Natural Language Processing
 
 Class: MDS271
-Created: May 11, 2021 10:42 AM
 
 # What is Natural Language Processing?
 In the broadest sense, we can say that natural processing is the *synthesising* and *processing* of human languages. NLP ranges from simple pattern making using regular expressions to deep neural nets trying to translate languages.
@@ -48,7 +47,7 @@ A more sophisticated decision tree:
 2. Case of the word after "."
 3. Numeric Features
     - Length of word with "."
-    - Probability(a word with "." occurs at EOS
+    - Probability(a word with"." occurs at EOS
     - Probability(word after "." occurs at beginning of a sentence) eg The
 
 **Implementing Decision Tree**
