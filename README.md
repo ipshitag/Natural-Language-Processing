@@ -162,4 +162,18 @@ Performance:
 
 ![image](https://user-images.githubusercontent.com/20279993/124015634-8587ee80-da02-11eb-8dac-e02c34ed2418.png)
 
-# Probabilistic Language Model
+# Latent Drichlet Allocation
+
+![image](https://user-images.githubusercontent.com/20279993/124501643-914b2a80-dddf-11eb-9258-1d373a288604.png)
+
+![image](https://user-images.githubusercontent.com/20279993/124501659-990acf00-dddf-11eb-8c59-31cfed7999a7.png)
+
+![image](https://user-images.githubusercontent.com/20279993/124501830-e4bd7880-dddf-11eb-80e5-fddd6946f4c8.png)
+
+![image](https://user-images.githubusercontent.com/20279993/124501906-0cacdc00-dde0-11eb-945e-671a6cddba3b.png)
+
+![image](https://user-images.githubusercontent.com/20279993/124502349-f05d6f00-dde0-11eb-836e-aa19ecad2b51.png)
+
+![image](https://user-images.githubusercontent.com/20279993/124503745-ceb1b700-dde3-11eb-92e7-09c5585941c1.png)
+
+
