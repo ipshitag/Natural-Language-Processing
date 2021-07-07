@@ -164,6 +164,15 @@ Performance:
 
 # Latent Drichlet Allocation
 
+![image](https://user-images.githubusercontent.com/20279993/124778357-8e2a7880-df5e-11eb-895d-8e53545f67ba.png)
+
+In natural language processing, the term topic means a set of words that “go together”. These are the words that come to mind when thinking about a topic. For example while thinking of the words like athlete, soccer, and stadium, the topic "Sports" comes to mind. 
+
+![image](https://user-images.githubusercontent.com/20279993/124778691-c7fb7f00-df5e-11eb-8bac-42c037f79a97.png)
+
+
+A topic model is one that automatically discovers topics occurring in a collection of documents
+
 ![image](https://user-images.githubusercontent.com/20279993/124501643-914b2a80-dddf-11eb-9258-1d373a288604.png)
 
 ![image](https://user-images.githubusercontent.com/20279993/124501659-990acf00-dddf-11eb-8c59-31cfed7999a7.png)
