@@ -186,3 +186,13 @@ A topic model is one that automatically discovers topics occurring in a collecti
 ![image](https://user-images.githubusercontent.com/20279993/124503745-ceb1b700-dde3-11eb-92e7-09c5585941c1.png)
 
 
+# Resources
+
+1. [LDA Ktrain](https://nbviewer.jupyter.org/github/amaiya/ktrain/blob/master/examples/text/20newsgroups-topic_modeling.ipynb)
+2. [LDA Topics](https://investigate.ai/text-analysis/choosing-the-right-number-of-topics-for-a-scikit-learn-topic-model/)
+3. [LDA Hyper parameter](http://dirichlet.net/pdf/wallach09rethinking.pdf)
+4. [LDA understanding](https://towardsdatascience.com/nlp-with-lda-latent-dirichlet-allocation-and-text-clustering-to-improve-classification-97688c23d98)
+5. [LDA theory](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation)
+6. [Text Preprocessing](https://www.youtube.com/watch?v=VyDmQggfsZ0)
+7. [LDA Theory (vid) 1](https://www.youtube.com/watch?v=T05t-SqKArY)
+8. [LDA Theory (vid) 2](https://www.youtube.com/watch?v=BaM1uiCpj_E)
