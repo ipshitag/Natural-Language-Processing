@@ -185,7 +185,9 @@ A topic model is one that automatically discovers topics occurring in a collecti
 
 ![image](https://user-images.githubusercontent.com/20279993/124503745-ceb1b700-dde3-11eb-92e7-09c5585941c1.png)
 
-
+# Notebooks in this repository
+1. [Topic Extraction and Classification using LDA and NB](https://github.com/ipshitag/Natural-Language-Processing/blob/main/Topic%20Extraction%20using%20LDA.ipynb)
+2. [Spam Classification using Bernoulli NB](https://github.com/ipshitag/Natural-Language-Processing/blob/main/spam-classification-unbalanced-class-bernoullinb.ipynb) 
 
 # Resources
 
