@@ -61,7 +61,7 @@ We can think of the questions in a decision tree as features that could be explo
 - Neural nets
 - etc
 
-# Tokenization
+## Tokenization
 
 > I do uh main-mainly business data processing
 
@@ -111,26 +111,41 @@ Tokenization: Language issues →
 
 ![](Untitled%204.png)
 
-# Normalization
+![image](https://user-images.githubusercontent.com/20279993/126058036-7a0c0581-de2d-47f4-9307-a32ef82e982c.png)
+
+## Byte Pair Encoding
+Instead of white-space segmentation or single-character segmentation, we will use the data to tell us how to tokenize. **Subword tokenization** is a way in which the tokens can be part of words as well as whole words. 
+
+Three common subword tokenization
+1. Byte Pair Encoding (BPE)
+2. Unigram language modeling tokenization
+3. WordPiece
+
+All these algorithms have two parts,
+- a token *learner* that takes a raw training corpus and induces a vocabulary
+- a token *segmenter* that takes a raw test sentence and tokenizes it according to that vocabulary. 
+
+
+## Normalization
 Word normalization is the task of putting words/tokens in a standard format, choosing a single normal form for words with multiple forms like USA and US or uh-huh and uhhuh.
 1. We need to 'normalize' words
 2. We implicitly define equivalence classes of terms
 3. Alternative: asymmetric expansion
 4. Potentially more powerful, but less efficient
 
-## Case Folding
+### Case Folding
 This means changing all the words to lower case. One problem can be in words like **US**, which is different to **us**.
 
-## Lemmatization
+### Lemmatization
 Reduces inflections or variant forms to base form
 - am, are, is -> be
 - car, cars, car's, cars' -> cars
 Lemmatization -> the correct dictionary headword
 
-## Morphology
+### Morphology
 This deals with **morphemes** which are the small meaningful units and are of two types, *stems* and *affixes*. Stems are the core meaning bearing part, and affixes are bits and pieces that are related to stems and often, are grammatical functions. For example in the word **stems**, stem is the stems, and s is the affixes.
 
-## Stemming
+### Stemming
 Reduce terms to their stem. Stemming is a **crude** way to chop off affixes. Its language dependant. For example automatic, automation to automat.
 ![image](https://user-images.githubusercontent.com/20279993/124009431-3a1e1200-d9fb-11eb-853b-b75887eaaa46.png)
 
@@ -144,9 +159,39 @@ Porters Algorithm:-
 
 ![image](https://user-images.githubusercontent.com/20279993/124009773-9f720300-d9fb-11eb-8c07-1117f983b3b9.png)
 
-# How similar are two similar words?
+## Words and Corpora
+To count the number of words in a given sentence, we need to take into account how exactly we are counting the word, are we counting the unique instances or all the tokens. 
 
-## Edit Distance
+<img src="https://render.githubusercontent.com/render/math?math=N"> --> Number of tokens
+
+<img src="https://render.githubusercontent.com/render/math?math=V"> --> Vocabulary = set of types
+
+<img src="https://render.githubusercontent.com/render/math?math=|V|"> --> size of vocabulary
+
+Heaps Law = Herdan's Law:
+
+<img src="https://render.githubusercontent.com/render/math?math=|V| = kN^\beta">
+
+where often <img src="https://render.githubusercontent.com/render/math?math=0.67<\beta<0.75">
+
+i.e. the vocabulary size grows with > square root of word of token
+
+Some common corpus:
+
+![image](https://user-images.githubusercontent.com/20279993/126057798-c5a3631d-eae7-4258-a7b1-201669d3d576.png)
+
+Corpora vary along dimension like
+- Language --> 7097 languages in the world
+- Variety --> like African American language varieties
+- Code Switching --> switching from one language to another, like "No need to worry, abhi time hai"
+- Genre --> newswire, scientific articles
+- Authors demographics --> writers age, gender etc
+
+
+
+## How similar are two similar words?
+
+### Edit Distance
 
 It can be found by their **Edit distance**. The minimum edit distance between two strings is the minimum number of editing operations that are needed to transform to one another. The editing operations are
 1. Insertion
@@ -161,6 +206,9 @@ Algorithm for edit distance:
 Performance:
 
 ![image](https://user-images.githubusercontent.com/20279993/124015634-8587ee80-da02-11eb-8dac-e02c34ed2418.png)
+
+# Language Modelling
+
 
 # Latent Drichlet Allocation
 
@@ -184,6 +232,18 @@ A topic model is one that automatically discovers topics occurring in a collecti
 ![image](https://user-images.githubusercontent.com/20279993/124502349-f05d6f00-dde0-11eb-836e-aa19ecad2b51.png)
 
 ![image](https://user-images.githubusercontent.com/20279993/124503745-ceb1b700-dde3-11eb-92e7-09c5585941c1.png)
+
+# Neural Nets for NLP
+
+What do we need to handle in NLP: 
+- Morphology
+- Syntax
+- Semantics/World Knowledge
+- Discourse
+- Pragmatics
+- Multilinguality
+
+In order to handle these, we can use Neural Networks. Neural networks are tools that can help us to handle hard things. 
 
 # Notebooks in this repository
 1. [Topic Extraction and Classification using LDA and NB](https://github.com/ipshitag/Natural-Language-Processing/blob/main/Topic%20Extraction%20using%20LDA.ipynb)
