@@ -234,6 +234,7 @@ A topic model is one that automatically discovers topics occurring in a collecti
 ![image](https://user-images.githubusercontent.com/20279993/124503745-ceb1b700-dde3-11eb-92e7-09c5585941c1.png)
 
 # Neural Nets for NLP
+Since texts can be seen as a sequence, hence neural networks like LSTM and RNN are used.
 
 What do we need to handle in NLP: 
 - Morphology
