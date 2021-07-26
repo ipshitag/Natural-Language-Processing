@@ -248,6 +248,10 @@ What do we need to handle in NLP:
 
 In order to handle these, we can use Neural Networks. Neural networks are tools that can help us to handle hard things. 
 
+# Research papers
+1. Word2Vec
+
+
 # Notebooks in this repository
 1. [Topic Extraction and Classification using LDA and NB](https://github.com/ipshitag/Natural-Language-Processing/blob/main/Topic%20Extraction%20using%20LDA.ipynb)
 2. [Spam Classification using Bernoulli NB](https://github.com/ipshitag/Natural-Language-Processing/blob/main/spam-classification-unbalanced-class-bernoullinb.ipynb) 
