@@ -1,14 +1,12 @@
 def get_jobs(keyword, num_jobs,path,slp_time):
     
     """
-    Get jobs from glassdoor, by passing a keyword. The returned dataframe includes
+    Get jobs from Monster, by passing a keyword. The returned dataframe includes
     -Job Title -> Title of the job, as given by employer
     -Searched Job Title -> The keyword passed as argument, the searched element
-    -Job Function -> The role of the job as given by employer
-    -Job Description -> Description of job which comes before clicking 'See More'
     -Full Description -> Full Description that comes after clicking 'See More'
     -Company Name -> Name of the Company
-    -Location -> Location of the job, as passed by use
+    -URL -> Link of individual jobs
     
     All the above data can be commented out as needed.
     
@@ -115,7 +113,8 @@ def get_jobs(keyword, num_jobs,path,slp_time):
                                                          
                         #parent
                         try:
-                            job_description = driver.find_element_by_xpath('//*[@id="app"]/div[2]/div/div[2]/div[2]/div[2]/div/div/div/div[4]/div/div[2]/div/div[1]/div').text
+                            #job_description = driver.find_element_by_xpath('//*[@id="app"]/div[2]/div/div[2]/div[2]/div[2]/div/div/div/div[4]/div/div[2]/div/div[1]/div').text
+                            job_description = driver.find_element_by_xpath("//div[contains(@class, 'jobdescriptioncomponent__SanitizedHtmlContainer-my61fv-2 gvwQGf')]").text
                         except (NoSuchElementException,StaleElementReferenceException) as e:
                             job_description = -1
                         
